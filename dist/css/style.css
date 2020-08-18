@@ -96,6 +96,9 @@ body {
   font-size: 35px;
   word-wrap: break-word;
   font-family: 'Inconsolata', monospace;
+  background: #f1f1f1;
+  background: -webkit-gradient(linear, left top, right top, from(#f1f1f1), to(#dbe8ff));
+  background: linear-gradient(90deg, #f1f1f1 0%, #dbe8ff 100%);
 }
 
 .container {
@@ -120,6 +123,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .calc__output {

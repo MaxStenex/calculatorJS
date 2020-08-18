@@ -4,6 +4,8 @@ body {
    font-size: 35px;
    word-wrap: break-word;
    font-family: 'Inconsolata', monospace;
+   background: rgb(241,241,241);
+   background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(219,232,255,1) 100%);
 }
 
 .container {
@@ -22,6 +24,7 @@ body {
          display: flex;
          flex-direction: column;
          justify-content: center;
+         box-shadow: 0 0 5px rgba(0,0,0,0.5);
 		}
 
 		&__output {
